@@ -34,3 +34,13 @@ footer {
     }
   }
 }
+
+@media (max-width: 1200px) {
+  footer {
+    padding: 100px 10px;
+
+    p {
+      text-align: center;
+    }
+  }
+}

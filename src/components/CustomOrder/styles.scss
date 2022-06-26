@@ -1,9 +1,73 @@
 .customOrder {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
 
   .customOrderText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
     h1 {
       font-size: 60px;
+    }
+
+    p {
+      text-align: center;
+      max-width: 60%;
+    }
+
+    .imagesContainer {
+      display: flex;
+      gap: 25px;
+
+      img {
+        border-radius: 6px;
+        border: 6px solid lighten(#232946, 10%);
+        width: 250px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .customOrder {
+    padding: 100px 10px;
+
+    .customOrderText h1 {
+      font-size: 40px;
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .customOrder {
+    .customOrderText {
+      p {
+        max-width: 100%;
+      }
+      .imagesContainer {
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .customOrder {
+    .customOrderText {
+      .imagesContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+          width: 90%;
+        }
+      }
     }
   }
 }

@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 100px;
+
   h1 {
     font-size: 60px;
     text-align: center;
@@ -11,5 +11,33 @@
     margin: 50px 0;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .work {
+    h1 {
+      padding: 0 10px;
+      font-size: 55px;
+    }
+    .work-grid {
+      grid-template-columns: calc(100% / 3) calc(100% / 3) calc(100% / 3);
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .work {
+    .work-grid {
+      grid-template-columns: 50% 50%;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .work {
+    .work-grid {
+      grid-template-columns: auto;
+    }
   }
 }

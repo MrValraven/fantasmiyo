@@ -2,7 +2,7 @@ import React from "react";
 
 import "./styles.scss";
 
-import HeroImage from "../../assets/hero.jpg";
+import HeroImage from "../../assets/hero1.png";
 import DefaultButton from "../DefaultButton/DefaultButton";
 
 const Hero = () => {
