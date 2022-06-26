@@ -1,0 +1,40 @@
+.hero {
+  display: flex;
+  padding: 100px;
+  height: 100vh;
+
+  img {
+    width: 40%;
+  }
+
+  .heroText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .subtitle {
+      margin-bottom: -30px;
+    }
+
+    h1 {
+      font-size: 100px;
+      margin-left: -3px;
+      margin-bottom: -10px;
+    }
+
+    hr {
+      max-width: 65%;
+    }
+
+    p {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      max-width: 65%;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 25px;
+    }
+  }
+}

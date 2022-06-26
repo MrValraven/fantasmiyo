@@ -1,0 +1,25 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+
+  label {
+    margin-top: 10px;
+    margin-left: 16px;
+  }
+
+  textarea {
+    min-height: 100px;
+    resize: vertical;
+    padding: 10px 15px;
+    outline: none;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 6px;
+    font-size: 14px;
+    margin: 5px 0 10px 0;
+    background-color: white;
+    border: 1px solid #474c56;
+  }
+}
