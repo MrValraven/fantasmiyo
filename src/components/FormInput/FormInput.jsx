@@ -23,7 +23,6 @@ const FormInput = ({
         name={name}
         onChange={(e) => handleInput(e)}
         required={isRequired}
-        pattern="[a-zA-Z0-9@_.]*"
       />
     </div>
   );

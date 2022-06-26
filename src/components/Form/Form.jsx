@@ -19,7 +19,8 @@ const Form = ({ email }) => {
     }));
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault();
     if (
       formData.username === "" ||
       formData.email === "" ||
@@ -31,7 +32,7 @@ const Form = ({ email }) => {
     console.log("sending message");
   };
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={(e) => handleSubmit(e)}>
       <FormInput
         label="Name"
         name="Name"

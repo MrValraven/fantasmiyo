@@ -30,8 +30,8 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-family: "Poppins", sans-serif;
-  background-color: #e7ecef;
-  color: #155781;
+  background-color: #232946;
+  color: #b8c1ec;
 }
 /*
   6. Improve media defaults
@@ -52,8 +52,8 @@ button,
 textarea,
 select {
   font: inherit;
-  color: #155781;
-  caret-color: #155781;
+  color: #232946;
+  caret-color: #232946;
 }
 /*
   8. Avoid text overflows
@@ -66,6 +66,10 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+}
+
+h1 {
+  color: darken(#b8c1ec, 10%);
 }
 /*
   9. Create a root stacking context
