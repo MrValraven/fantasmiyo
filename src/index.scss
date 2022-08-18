@@ -30,8 +30,6 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-family: "Poppins", sans-serif;
-  background-color: #232946;
-  color: #b8c1ec;
   overflow-x: hidden;
 
   &::-webkit-scrollbar {
@@ -81,10 +79,6 @@ h6 {
   overflow-wrap: break-word;
 }
 
-h1 {
-  color: darken(#b8c1ec, 10%);
-  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
 /*
   9. Create a root stacking context
 */
